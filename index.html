@@ -3,9 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+	<title>Encriptador De Texto Alura</title>
 </head>
-<body>
+	
+	<!-- El elemento body contendrá la div contenedorPrincipal que contendrá los 3 contenedores grandes -->
+	<body>
 
-</body>
+	<div class="contenedorPrincipal">
+		<!-- Contenedor 1: Barra lateral izquierda que contiene el logo de Alura -->
+		<div class="contenedorBanner">
+			<div class="contenedorLogo">
+				<p>Aquí irá el logo simple</p>
+			</div>
+			<div class="contenedorTitle">
+				<p>Aquí irá el título</p>
+			</div>
+		</div>
+
+
+		<!-- Contenedor 2: Input y botones encriptar y desencriptar -->
+		<div class="contenedorInput">
+			<div class="contenedorCuadroInTxt">
+				<input class="cuadroInTxt" type="textarea" placeholder="Introduzca aquí el texto a encriptar">	
+			</div>
+			<div class="contenedorBotonesIn">
+				<div class="contenedorBtnEncriptar"><button class="btnEncriptar">Encriptar</button></div>
+				<div class="contenedorBtnDesencriptar"><button class="btnDesencriptar">Desencriptar</button></div>
+			</div>
+		</div>
+
+
+		<!-- Contenedor 3: Output y botón copiar -->
+		<div class="contenedorOutput">
+			<div class="contenedorCuadroOutTxt">
+				<p class="cuadroOutTxt">Aquí irá el cuadro de salida</p>
+			</div>
+			<div class="contenedorBtnCopiar">
+				<button class="btnCopiar">Copiar</button>
+			</div>
+		</div>		
+	</div> 
+		
+	</body>
 </html>

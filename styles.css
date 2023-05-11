@@ -1,0 +1,109 @@
+.contenedorPrincipal{
+	background-color: rgb(20, 20, 20);
+	width: 100%;
+	height: 900px;
+	display: flex;
+  	justify-content: center;
+}
+
+	.contenedorBanner{
+		width: 10%;
+		height: auto;
+		background-color: rgb(30, 30, 30);
+		border-color: rgba(0, 0, 0, 0);
+		border-radius: 20px;
+		display: flex;
+	  	justify-content: center;
+	  	flex-direction: column;
+	}
+		.contenedorLogo{
+			height: 90%;
+			font-size: 2em;
+/*			background-color: rgb(30, 30, 30);*/
+		}
+
+		.contenedorTitle{
+			height: 10%;
+			font-size: 2em;
+/*			background-color: rgb(35, 35, 35);*/
+		}
+
+	.contenedorInput{
+		width: 60%;
+		height: auto;
+		background-color: rgb(35, 35, 35);
+		border-color: rgba(0, 0, 0, 0);
+		border-radius: 20px;
+		display: flex;
+	  	justify-content: center;
+	  	flex-direction: column;
+	}
+
+		.contenedorCuadroInTxt{
+			height: 90%;
+			width: 100%;
+		}
+			.cuadroInTxt{
+				height: 100%;
+				width: 100%;
+				background-color: rgba(0, 0, 0, 0);
+				border-color: rgba(0, 0, 0, 0);
+				text-align: center;
+				font-size: 2em;
+			}
+
+		.contenedorBotonesIn{
+			display: flex;
+	  		justify-content: center;
+			height: 10%;
+		}
+			.contenedorBtnEncriptar{
+				width: 50%;
+				height: auto;
+			}
+
+			.contenedorBtnDesencriptar{
+				width: 50%;
+				height: auto;
+			}
+
+				.btnEncriptar, .btnDesencriptar{
+					width: 100%;
+					height: 100%;
+					font-size: 2em;
+					color: white;
+					background-color: darkgrey;
+					border-radius: 10px;
+				}
+
+	.contenedorOutput{
+		width: 30%;
+		height: auto;
+		background-color: rgb(30, 30, 30);
+		border-color: rgba(0, 0, 0, 0);
+		border-radius: 20px;
+		display: flex;
+	  	justify-content: center;
+	  	flex-direction: column;
+	}
+		.contenedorCuadroOutTxt{
+			height: 90%;
+			background-color: rgb(30, 30, 30);
+		}
+
+			.cuadroOutTxt{
+				font-size: 2em;
+			}
+
+		.contenedorBtnCopiar{
+			height: 10%;
+			background-color: rgb(35, 35, 35);
+		}
+			.btnCopiar{
+					width: 100%;
+					height: 100%;
+					font-size: 2em;
+					color: white;
+					background-color: darkgrey;
+					border-radius: 10px;
+				}
